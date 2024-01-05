@@ -6,6 +6,7 @@ import re
 
 
 class FileSorter:
+
     extensions_dict = {
         "Image": [".jpeg", ".png", ".jpg", ".svg"],
         "Video": [".avi", ".mp4", ".mov", ".mkv"],
@@ -242,8 +243,8 @@ def executing_command(responce_from_the_user: str):
                 )
                 print(message)
                 continue
-            
+
     elif responce_from_the_user == "file-extension-show" or responce_from_the_user == "показать все разширения" or responce_from_the_user == "показати всі розширення":
         show_extension()
-                    
-    
+
+
